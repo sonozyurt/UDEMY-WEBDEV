@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #f9f7f7;
+}
+nav {
+  background-color: #dbe2ef;
+  height: 5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #3f72af;
+}
+.nav-flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.name {
+  padding: 2rem;
+  font-size: 24px;
+}
+
+.nav-links {
+  width: 25rem;
+}
+.nav-links a {
+  color: inherit;
+  text-decoration: inherit;
+  padding-right: 2rem;
+}
+
+.main {
+  background-image: url("assets/antalya.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.main-flex-container {
+  display: flex;
+  height: 1000px;
+}
