@@ -42,12 +42,13 @@ nav {
   height: 650px;
 }
 
-.outer-flex {
+.main-outer-flex {
   display: flex;
   align-items: end;
 }
 .main-flex-container {
   display: flex;
+  padding-bottom: 1rem;
   justify-content: center;
 }
 
@@ -80,4 +81,24 @@ li {
 
 .info h4 {
   padding-bottom: 0.5rem;
+}
+
+.socials-outer-flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.social-flex-container {
+  display: flex;
+  height: 55px;
+  width: 40%;
+  padding: 0 30px;
+  background-color: #112d4e;
+  justify-content: center;
+}
+
+.social-flex-container img {
+  height: 25px;
+  padding: 15px 2rem;
+  display: block;
 }
